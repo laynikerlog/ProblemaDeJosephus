@@ -24,7 +24,7 @@ public class ProblemaJosephus {
         // Número total de pessoas na roda
         int n = 20;
 
-        // Solicitar ao usuário que insira o valor de m usando um JOptionPane
+        // Solicitar ao usuário que insira o valor de m 
         String inputM = JOptionPane
                 .showInputDialog("Insira o valor de m (número de pessoas a serem puladas antes de eliminar alguém):");
 
@@ -40,7 +40,7 @@ public class ProblemaJosephus {
         // Chama o método para encontrar a pessoa sobrevivente
         Pessoa sobrevivente = encontrarSobrevivente(roda, m);
 
-        // Exibir o número da pessoa sobrevivente usando um JOptionPane
+        // Exibir o número da pessoa sobrevivente 
         JOptionPane.showMessageDialog(null, "A pessoa sobrevivente é a de número: " + sobrevivente.numero);
     }
 
